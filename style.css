@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  height: 20vh;
+}
+
+#header-ul {
+  display: flex;
+  list-style: none;
+  font-size: 1.1 rem;
+  margin-left: 230px;
+}
+
+#header-list {
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+#header-p {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: -1.5px;
+  color: #000846;
+ 
+  margin-left: 150px;
+}
+
+#verse {
+  color: #5844c1;
+}
+
+
+
+
+
+main{
+
+  display: flex;
+  justify-content: space-evenly;
+  height: 82vh;
+}
+
+
+
+#main-p{
+  position: absolute;
+  top: 275px;
+  left:175px;
+  font-size: 2.75rem;
+  font-weight: bold;
+}
+
+#main-p-span{
+  /*color:#000846;*/
+  color: #5844c1;
+}
+
+
+#view-courses {
+  text-align: left;
+  display: flex;
+  background-color: #5844c1;
+  padding: 15px;
+  color: white;
+  border-radius: 10px;
+}
+
+#first-section {
+  height: 65vh;
+}
+
+#happy-student {
+  height: 330px;
+  border-radius: 10px 50px 10px 50px; /* top-left, top-right, bottom-right, bottom-left */
+}
+
+.first-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+#first-section-text {
+  width: 35%;
+}
+
+#about {
+  color: #5844c1;
+  font-size: 1.3rem;
+}
+#build {
+  color: #000846;
+  font-size: 2.2rem;
+}
+#discription {
+  color: rgb(36, 34, 34);
+  font-size: 1.1rem;
+}
+#design-div {
+  background-color: #000846;
+  border-radius: 10px 30px 10px 30px; /* top-left, top-right, bottom-right, bottom-left */
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  left: 31%;
+  top: 980px;
+}
+
+
+/*second section*/
+
+
+
+#second-section {
+  height: 110vh;
+  background-color: #f1eeff;
+}
+
+.second-section-header {
+  text-align: center;
+  height: 40vh;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+#second-section-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+#second-section-stitle {
+  font-size: 1.2rem; 
+}
+.all-cards{
+  display: flex;
+  justify-content: space-evenly;
+}
+.card {
+  background-color: #fff;
+  height: 400px;
+  width: 270px;
+  border-radius: 10px;
+}
+#card-img {
+  width: 269.8px;
+  border-radius: 10px;
+}
+#card-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: 10px;
+}
+#card-stitle {
+  font-size: 1rem;
+  margin-left: 10px;
+}
+#card-discription {
+  font-size: 0.8rem;
+  margin-left: 10px;
+}
+
+
+/*third section*/
+
+
+
+
+
+#third-section {
+  height: 110vh;
+  background-color: #000846;
+}
+
+.third-section-header {
+  text-align: center;
+  height: 40vh;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  color: white;
+}
+
+#third-section-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+
+.all-blogs{
+  display: flex;
+  justify-content: space-evenly;
+}
+.blog {
+  background-color: #fff;
+  height: 400px;
+  width: 270px;
+  border-radius: 10px;
+}
+#blog-img {
+  width: 269.8px;
+  border-radius: 10px;
+}
+#blog-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: 10px;
+}
+#blog-stitle {
+  font-size: 1rem;
+  margin-left: 10px;
+}
+#blog-discription {
+  font-size: 0.8rem;
+  margin-left: 10px;
+}
+
+/*fourth-section*/
+
+#fourth-section {
+  height: 110vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#fourth-section-title{
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #000846;
+}
+
+
+.fourth-section-left{
+ 
+  width: 40%;
+  height: 50vh;
+  margin-right: 20px;
+}
+#fourth-section-ul{
+  display: flex;
+}
+#fourth-section-left-ul{list-style: none;
+font-size: 3rem;
+color: #5844c1;
+margin-top: 12px;
+margin-right: 20px;
+align-items: center;}
+#fourth-section-right-ul{list-style: none;
+margin-left: 5px;}
+
+#fourth-p-semi-title{
+  font-size:1.2rem;
+  font-weight: bold       ;
+  
+}
+#fourth-p-disc{
+  font-size: 1rem;}
+
+
+.fourth-section-right{
+ 
+  width: 40%;
+  height: 50vh;
+  margin-left: 20px;
+  
+}
+#fourth-section-image{
+  width: 90%;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+margin-left: 90px;
+}
+/*square box of quote*/
+
+
+.square-box{
+  background-color:  #f1eeff;
+border-radius: 10px;
+height: 225px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+/*footer*/
+footer{
+  
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+
+
+ color: #fff;
+  background: #000846;
+
+  
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #cacdd2;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+
+  border-radius: 50%;
+
+}
+.socials a i{
+  font-size: 1.1rem;
+  width: 20px;
+
+
+  transition: color .4s ease;
+
+}
+.socials a:hover i{
+  color: aqua;
+}
+
+.footer-bottom{
+  background:#f1eeff;
+  width: 100vw;
+  padding: 20px;
+padding-bottom: 40px;
+  text-align: center;
+}
+.footer-bottom p{
+float: left;
+color:#000846;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom p a{
+color:#000846;
+font-size: 16px;
+text-decoration: none;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+.footer-menu{
+float: right;
+
+}
+.footer-menu ul{
+display: flex;
+}
+
+.footer-menu ul li{
+  padding-right: 10px;
+  display: block;
+  }
+  .footer-menu ul li a{
+    color: #cfd2d6;
+    text-decoration: none;
+  }
+  .footer-menu ul li a:hover{
+    color: #27bcda;
+  }
+  
+  @media (max-width:500px) {
+  .footer-menu ul{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  }
